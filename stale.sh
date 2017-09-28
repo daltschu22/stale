@@ -1,5 +1,11 @@
 #!/bin/sh
 
+#
+# Checks if a logfile hasnt been written to in the set amount of time. 
+# If its gone stale, email user last 10 lines of file.
+#
+
+
 TIME_LIMIT=
 LOG_PATH=
 LAST_TIME=
