@@ -3,6 +3,9 @@
 #
 # Checks if a logfile hasnt been written to in the set amount of time. 
 # If its gone stale, email user last 10 lines of file.
+# 
+# USAGE: ./stale -60 /my/log/file.log
+# This will check the log file every 60 minutes for a change.
 #
 
 
