@@ -8,7 +8,6 @@
 # This will check the log file every 60 minutes for a change.
 #
 
-
 TIME_LIMIT=
 LOG_PATH=
 LAST_TIME=
@@ -47,7 +46,6 @@ fi
 LAST_TIME=$( GET_TIME )
 sleep "$TIME_LIMIT"s
 
-
 while true; do 
 	CURRENT_TIME="$( GET_TIME )"
 
@@ -60,4 +58,3 @@ while true; do
 		LAST_TIME=$CURRENT_TIME
 	fi
 done
-
